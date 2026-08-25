@@ -1,4 +1,6 @@
-dim_track: list[dict] = [
+import pandas as pd
+ 
+dic_dim_track: list[dict] = [
     {
         "track_id": 101,
         "track_name": "Enter Sandman",
@@ -34,7 +36,7 @@ dim_track: list[dict] = [
     },
 ]
 
-dim_customer: list[dict] = [
+dic_dim_customer: list[dict] = [
     {
         "customer_id": 1,
         "customer_full_name": "Luís Gonçalves",
@@ -67,7 +69,7 @@ dim_customer: list[dict] = [
     },
 ]
 
-dim_employees: list[dict] = [
+dic_dim_employees: list[dict] = [
     {
         "employee_id": 1,
         "employee_full_name": "Andrew Adams",
@@ -97,7 +99,7 @@ dim_employees: list[dict] = [
     },
 ]
 
-dim_date: list[dict] = [
+dic_dim_date: list[dict] = [
     {
         "date_key": 20260820,
         "full_date": "2026-08-20",
@@ -118,7 +120,7 @@ dim_date: list[dict] = [
     },
 ]
 
-fact_sales: list[dict] = [
+dic_fact_sales: list[dict] = [
     {
         "fact_sales_id": 1,
         "invoice_id": 1001,
@@ -150,4 +152,13 @@ fact_sales: list[dict] = [
         "extended_amount": 1.29,
     },
 ]
+
+
+dim_track = pd.DataFrame(dic_dim_track)
+dim_customer = pd.DataFrame(dic_dim_customer)
+dim_employees = pd.DataFrame(dic_dim_employees)
+dim_sales = pd.DataFrame(dic_fact_sales)
+dim_date = pd.DataFrame(dic_dim_date)
+fact_sales = pd.DataFrame(dic_fact_sales)
+
 
