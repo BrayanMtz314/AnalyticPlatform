@@ -67,6 +67,16 @@ dic_dim_customer: list[dict] = [
         "postal_code": "H2Y 1E6",
         "email": "ftremblay@gmail.com",
     },
+    {
+        "customer_id": 4,
+        "customer_full_name": "Marcos Rodrigues",
+        "company": "Embraer - Empresa Brasileira de Autobuses",
+        "city": "São José dos Campos",
+        "state": "SP",
+        "country": "Brazil",
+        "postal_code": "12227-000",
+        "email": "marcos@embraer.com.br",
+    }
 ]
 
 dic_dim_employees: list[dict] = [
@@ -151,6 +161,16 @@ dic_fact_sales: list[dict] = [
         "quantity": 1,
         "extended_amount": 1.29,
     },
+    {
+        "fact_sales_id": 4,
+        "invoice_id": 1003,
+        "customer_id": 4,
+        "track_id": 102,
+        "invoice_date_key": 20260821,
+        "unit_price": 1.29,
+        "quantity": 1,
+        "extended_amount": 1.29,
+    }
 ]
 
 
