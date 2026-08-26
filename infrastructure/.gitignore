@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# variables
+*.tfvars
+*.tfvars.json
+
+#enviroment variables
+.env
+
+#backend info
+*.hcl
+
+# SSH keys
+*.pem
+*.key
+rsa_key.p8
+rsa_key.pub

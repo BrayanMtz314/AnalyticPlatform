@@ -1,0 +1,7 @@
+
+# SNOWFLAKE you can find this data in your accounts details
+snowflake_organization = "<>"
+snowflake_account = "<>"
+snowflake_user = "<>"
+snowflake_role = "<>"
+snowflake_private_key_path = "<the path where is rsa_key.p8 (your secret key)>"
