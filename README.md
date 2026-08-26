@@ -37,6 +37,10 @@ openssl rsa -in rsa_key.p8 -pubout -out rsa_key.pub
 ```
 saved it in the infraestructure folder, be sure about adding them to the .gitignore file!
 
+- remember fill out the .env.example, the terraform.tfvars.example and the terraform.hcl, add those to the .gitignore file!
+
+
+
 
 
 
