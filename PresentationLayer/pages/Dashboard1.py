@@ -13,7 +13,7 @@ st.markdown("---")
 st.sidebar.header("🎛️ Dashboard Filters")
 
 limit = st.sidebar.slider("Top Tracks Limit", min_value=1, max_value=50, value=10)
-year = st.sidebar.selectbox("Sales Year", [ 2026], index=0)
+year = st.sidebar.selectbox("Sales Year", [2024], index=0)
 granularity = st.sidebar.selectbox("Time Granularity", ["month", "quarter"])
 min_revenue = st.sidebar.number_input("Min City Revenue ($)", min_value=0.0, value=1.0, step=0.5)
 

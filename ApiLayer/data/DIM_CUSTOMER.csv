@@ -1,0 +1,60 @@
+CUSTOMER_ID,FULL_NAME,COMPANY,CITY,STATE,COUNTRY,POSTAL_CODE,EMAIL,SUPPORT_REP_ID,SUPPORT_REP_NAME
+1,Luís Gonçalves,Embraer - Empresa Brasileira de Aeronáutica S.A.,São José dos Campos,SP,Brazil,12227-000,luisg@embraer.com.br,3,Jane Peacock
+2,Leonie Köhler,,Stuttgart,,Germany,70174,leonekohler@surfeu.de,5,Steve Johnson
+3,François Tremblay,,Montréal,QC,Canada,H2G 1A7,ftremblay@gmail.com,3,Jane Peacock
+4,Bjørn Hansen,,Oslo,,Norway,0171,bjorn.hansen@yahoo.no,4,Margaret Park
+5,František Wichterlová,JetBrains s.r.o.,Prague,,Czech Republic,14700,frantisekw@jetbrains.com,4,Margaret Park
+6,Helena Holý,,Prague,,Czech Republic,14300,hholy@gmail.com,5,Steve Johnson
+7,Astrid Gruber,,Vienne,,Austria,1010,astrid.gruber@apple.at,5,Steve Johnson
+8,Daan Peeters,,Brussels,,Belgium,1000,daan_peeters@apple.be,4,Margaret Park
+9,Kara Nielsen,,Copenhagen,,Denmark,1720,kara.nielsen@jubii.dk,4,Margaret Park
+10,Eduardo Martins,Woodstock Discos,São Paulo,SP,Brazil,01007-010,eduardo@woodstock.com.br,4,Margaret Park
+11,Alexandre Rocha,Banco do Brasil S.A.,São Paulo,SP,Brazil,01310-200,alero@uol.com.br,5,Steve Johnson
+12,Roberto Almeida,Riotur,Rio de Janeiro,RJ,Brazil,20040-020,roberto.almeida@riotur.gov.br,3,Jane Peacock
+13,Fernanda Ramos,,Brasília,DF,Brazil,71020-677,fernadaramos4@uol.com.br,4,Margaret Park
+14,Mark Philips,Telus,Edmonton,AB,Canada,T6G 2C7,mphilips12@shaw.ca,5,Steve Johnson
+15,Jennifer Peterson,Rogers Canada,Vancouver,BC,Canada,V6C 1G8,jenniferp@rogers.ca,3,Jane Peacock
+16,Frank Harris,Google Inc.,Mountain View,CA,USA,94043-1351,fharris@google.com,4,Margaret Park
+17,Jack Smith,Microsoft Corporation,Redmond,WA,USA,98052-8300,jacksmith@microsoft.com,5,Steve Johnson
+18,Michelle Brooks,,New York,NY,USA,10012-2612,michelleb@aol.com,3,Jane Peacock
+19,Tim Goyer,Apple Inc.,Cupertino,CA,USA,95014,tgoyer@apple.com,3,Jane Peacock
+20,Dan Miller,,Mountain View,CA,USA,94040-111,dmiller@comcast.com,4,Margaret Park
+21,Kathy Chase,,Reno,NV,USA,89503,kachase@hotmail.com,5,Steve Johnson
+22,Heather Leacock,,Orlando,FL,USA,32801,hleacock@gmail.com,4,Margaret Park
+23,John Gordon,,Boston,MA,USA,2113,johngordon22@yahoo.com,4,Margaret Park
+24,Frank Ralston,,Chicago,IL,USA,60611,fralston@gmail.com,3,Jane Peacock
+25,Victor Stevens,,Madison,WI,USA,53703,vstevens@yahoo.com,5,Steve Johnson
+26,Richard Cunningham,,Fort Worth,TX,USA,76110,ricunningham@hotmail.com,4,Margaret Park
+27,Patrick Gray,,Tucson,AZ,USA,85719,patrick.gray@aol.com,4,Margaret Park
+28,Julia Barnett,,Salt Lake City,UT,USA,84102,jubarnett@gmail.com,5,Steve Johnson
+29,Robert Brown,,Toronto,ON,Canada,M6J 1V1,robbrown@shaw.ca,3,Jane Peacock
+30,Edward Francis,,Ottawa,ON,Canada,K2P 1L7,edfrancis@yachoo.ca,3,Jane Peacock
+31,Martha Silk,,Halifax,NS,Canada,B3S 1C5,marthasilk@gmail.com,5,Steve Johnson
+32,Aaron Mitchell,,Winnipeg,MB,Canada,R3L 2B9,aaronmitchell@yahoo.ca,4,Margaret Park
+33,Ellie Sullivan,,Yellowknife,NT,Canada,X1A 1N6,ellie.sullivan@shaw.ca,3,Jane Peacock
+34,João Fernandes,,Lisbon,,Portugal,,jfernandes@yahoo.pt,4,Margaret Park
+35,Madalena Sampaio,,Porto,,Portugal,,masampaio@sapo.pt,4,Margaret Park
+36,Hannah Schneider,,Berlin,,Germany,10789,hannah.schneider@yahoo.de,5,Steve Johnson
+37,Fynn Zimmermann,,Frankfurt,,Germany,60316,fzimmermann@yahoo.de,3,Jane Peacock
+38,Niklas Schröder,,Berlin,,Germany,10779,nschroder@surfeu.de,3,Jane Peacock
+39,Camille Bernard,,Paris,,France,75009,camille.bernard@yahoo.fr,4,Margaret Park
+40,Dominique Lefebvre,,Paris,,France,75002,dominiquelefebvre@gmail.com,4,Margaret Park
+41,Marc Dubois,,Lyon,,France,69002,marc.dubois@hotmail.com,5,Steve Johnson
+42,Wyatt Girard,,Bordeaux,,France,33000,wyatt.girard@yahoo.fr,3,Jane Peacock
+43,Isabelle Mercier,,Dijon,,France,21000,isabelle_mercier@apple.fr,3,Jane Peacock
+44,Terhi Hämäläinen,,Helsinki,,Finland,00530,terhi.hamalainen@apple.fi,3,Jane Peacock
+45,Ladislav Kovács,,Budapest,,Hungary,H-1073,ladislav_kovacs@apple.hu,3,Jane Peacock
+46,Hugh O'Reilly,,Dublin,Dublin,Ireland,,hughoreilly@apple.ie,3,Jane Peacock
+47,Lucas Mancini,,Rome,RM,Italy,00192,lucas.mancini@yahoo.it,5,Steve Johnson
+48,Johannes Van der Berg,,Amsterdam,VV,Netherlands,1016,johavanderberg@yahoo.nl,5,Steve Johnson
+49,Stanisław Wójcik,,Warsaw,,Poland,00-358,stanisław.wójcik@wp.pl,4,Margaret Park
+50,Enrique Muñoz,,Madrid,,Spain,28015,enrique_munoz@yahoo.es,5,Steve Johnson
+51,Joakim Johansson,,Stockholm,,Sweden,11230,joakim.johansson@yahoo.se,5,Steve Johnson
+52,Emma Jones,,London,,United Kingdom,N1 5LH,emma_jones@hotmail.com,3,Jane Peacock
+53,Phil Hughes,,London,,United Kingdom,SW1V 3EN,phil.hughes@gmail.com,3,Jane Peacock
+54,Steve Murray,,Edinburgh ,,United Kingdom,EH4 1HH,steve.murray@yahoo.uk,5,Steve Johnson
+55,Mark Taylor,,Sidney,NSW,Australia,2010,mark.taylor@yahoo.au,4,Margaret Park
+56,Diego Gutiérrez,,Buenos Aires,,Argentina,1106,diego.gutierrez@yahoo.ar,4,Margaret Park
+57,Luis Rojas,,Santiago,,Chile,,luisrojas@yahoo.cl,5,Steve Johnson
+58,Manoj Pareek,,Delhi,,India,110017,manoj.pareek@rediff.com,3,Jane Peacock
+59,Puja Srivastava,,Bangalore,,India,560001,puja_srivastava@yahoo.in,3,Jane Peacock
