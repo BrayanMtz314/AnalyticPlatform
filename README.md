@@ -2,7 +2,41 @@
 
 ## API layer
 
+- To set up the database connection you need to fill out the .env in this stage, there you can find an example.
+
+- In the fastapi root folder `ApiLayer/` you need to have a copy of your rsa_key.p8 file (secret key), it is require to snowflake to stand a connection
+
+- run the project:
+```bash
+# be sure of being in the right folder
+cd ApiLayer
+
+# sync the dependencies
+uv sync
+
+# activate the enviroment
+source .venv/bin/activate
+
+# run the project
+uv run fastapi dev main.py
+```
+
 ## Streamlit layer
+
+- run the project:
+```bash
+# be sure of being in the right folder
+cd PresentationLayer
+
+# sync the dependencies
+uv sync
+
+# activate the enviroment
+source .venv/bin/activate
+
+# run the project
+uv run streamlit run app.py
+```
 
 ## infraestructure layer
 
@@ -42,6 +76,15 @@ saved it in the infraestructure folder, be sure about adding them to the .gitign
 
 - run the proyect
 ```bash
+# be sure of being in the right folder
+cd infrastructure
+
+# sync the dependencies
+uv sync
+
+# set in the enviroment
+source .venv/bin/activate
+
 # watch the resources
 terraform plan
 
@@ -51,8 +94,6 @@ terraform apply
 #useful if you want to see the resources
 terraform state list
 
-# set in the enviroment
-source .venv/bin/activate
 
 # run the script
 uv run python scripts/init_db.py

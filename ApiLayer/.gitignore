@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+# SSH keys
+rsa_key.p8
+rsa_key.pub
