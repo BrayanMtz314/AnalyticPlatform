@@ -43,7 +43,7 @@ def main():
         account=os.getenv("SNOWFLAKE_ACCOUNT"),
         private_key=pkb,
         role="ACCOUNTADMIN",
-        warehouse="ANALYTICS_WH",
+        warehouse=os.getenv("SNOWFLAKE_WAREHOUSE"),
         database="ANALYTICS_PLATFORM_DB",
         schema="API_DATA"
     )

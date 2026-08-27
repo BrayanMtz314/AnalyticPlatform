@@ -40,7 +40,23 @@ saved it in the infraestructure folder, be sure about adding them to the .gitign
 - remember fill out the .env.example, the terraform.tfvars.example and the terraform.hcl, add those to the .gitignore file!
 
 
+- run the proyect
+```bash
+# watch the resources
+terraform plan
 
+# set up the resources
+terraform apply
+
+#useful if you want to see the resources
+terraform state list
+
+# set in the enviroment
+source .venv/bin/activate
+
+# run the script
+uv run python scripts/init_db.py
+```
 
 
 
