@@ -8,6 +8,8 @@ st.set_page_config(
     layout="wide"
 )
 
+genres = ['No genre','Rock','Jazz','Metal', 'Alternative & Punk','Rock And Roll','Blues','Latin','Reggae','Pop','Soundtrack','Bossa Nova','Easy Listening','Heavy Metal','R&B/Soul','Electronica/Dance','World','Hip Hop/Rap','Science Fiction','TV Shows','Sci Fi & Fantasy','Drama','Comedy','Alternative','Classical','Opera']
+
 st.title("Analytics Dashboard")
 st.markdown("Use the controls inside each section to fetch data. Updating one chart will **not** reload the others.")
 st.divider()
@@ -17,8 +19,8 @@ st.divider()
 # We cache the data for 5 minutes (ttl=300). If a user requests the exact same 
 # parameters within 5 minutes, Streamlit skips the API call and loads from memory.
 @st.cache_data(ttl=300, show_spinner="Fetching tracks...")
-def fetch_top_tracks(limit):
-    return pd.DataFrame(api.get_top_tracks(limit=limit))
+def fetch_top_tracks(limit, genre = None):
+    return pd.DataFrame(api.get_top_tracks(limit=limit, genre=genre))
 
 @st.cache_data(ttl=300, show_spinner="Fetching trends...")
 def fetch_sales_trend(year, granularity):
@@ -52,11 +54,12 @@ def top_tracks_fragment():
         # rather than updating every time the slider moves.
         with st.form("form_tracks"):
             limit = st.slider("Top Tracks Limit", min_value=1, max_value=50, value=10)
+            genre = st.selectbox("Filter by Genre", genres, index=0)
             st.form_submit_button("Fetch Data")
             
     with col_chart:
         try:
-            df = fetch_top_tracks(limit)
+            df = fetch_top_tracks(limit, genre if genre != 'No genre' else None)
             if not df.empty:
                 st.bar_chart(df.set_index("track_name")["total_revenue"], color="green")
             else:
@@ -187,7 +190,7 @@ def customer_history_fragment():
                 df_trans = pd.DataFrame(transactions)
                 
                 # Streamlit's dataframe automatically makes this sortable and scrollable
-                st.dataframe(df_trans, use_container_width=True, hide_index=True)
+                st.dataframe(df_trans, width='stretch', hide_index=True)
             else:
                 st.info("No transactions found for this customer.")
                 
