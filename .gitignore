@@ -10,6 +10,7 @@ crash.log
 
 #enviroment variables
 .env
+.venv
 
 #backend info
 *.hcl
@@ -19,3 +20,15 @@ crash.log
 *.key
 rsa_key.p8
 rsa_key.pub
+
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pyc
+
+
