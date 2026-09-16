@@ -2,6 +2,8 @@
 
 This project is a three-tier data analytics platform that provisions a Snowflake data warehouse, serves data via a FastAPI backend, and visualizes insights using a Streamlit frontend.
 
+![Three Tier Architecture](./infrastructure/Data/aseets/threetierArchitecture.png)
+
 ## Database Architecture
 
 The platform analyzes the well-known Chinook dataset (a digital music store). The data has been processed through a pipeline and loaded into Snowflake as a star schema optimized for analytical queries.
